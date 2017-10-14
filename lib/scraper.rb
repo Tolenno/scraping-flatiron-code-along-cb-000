@@ -35,4 +35,4 @@ end
   end
 end
 
-self.class.new.print_courses
+Scraper.new.print_courses
