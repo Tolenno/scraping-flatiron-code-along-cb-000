@@ -35,4 +35,4 @@ end
   end
 end
 
-self.new.print_courses
+self.class.new.print_courses
