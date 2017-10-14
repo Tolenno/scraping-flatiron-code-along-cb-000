@@ -11,10 +11,11 @@ end
 
 def get_courses
   get_page.css("")
+  binding.pry
 end
 
 def make_courses
-
+  
 end
 
     def print_courses
