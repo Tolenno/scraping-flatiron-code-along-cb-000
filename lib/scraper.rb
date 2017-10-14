@@ -10,7 +10,11 @@ def get_page
 end
 
 def get_courses
-  get_page
+  get_page.css("")
+end
+
+def make_courses
+
 end
 
     def print_courses
