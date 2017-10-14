@@ -13,6 +13,9 @@ end
 
 def get_courses
   get_page.css(".post")
+  title = h2
+  Full-Time/Part-Time = date
+  description = p
 end
 
 def make_courses
