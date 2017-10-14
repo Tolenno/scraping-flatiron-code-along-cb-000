@@ -27,7 +27,7 @@ end
     self.make_courses
     Course.all.each do |course|
       binding.pry
-      if course.title && course.title.include?("/\S/")
+      if course.title && course.title.include?("/\w/")
         puts "Title: #{course.title}"
         puts "  Schedule: #{course.schedule}"
         puts "  Description: #{course.description}"
